@@ -1,0 +1,146 @@
+   html {
+    scroll-behavior: smooth;
+   }
+   
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    max-width: 1152px;
+    margin: 27px auto 0;
+}
+
+nav a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 26px;
+}
+
+#about-me-section {
+    width: 866px;
+    margin: 175px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+#about-me-section div h1 {
+    font-size: 44px;
+    line-height: bold;
+    font-weight: 60px;
+    margin-bottom: 40px;
+}
+#about-me-section div p {
+    width: 497px;
+    font-size: 16px;
+    line-height: 23px;
+}
+#about-me-section div button {
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background: #f78c00;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+}
+#about-me-section div img {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+}
+#my-projects-sections {
+    background: #384772;
+    padding: 24px 0;
+    margin: 70px 0;
+}
+
+#my-projects-sections h2 {
+    font-size: 28px;
+    color: #fff;
+}
+#my-projects-sections section {
+    width: 860px;
+    margin: 0 auto;
+
+}
+
+#my-projects-sections section > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+#my-projects-sections section > div div {
+    background: #fff;
+    width: 49%;
+    margin: 0 0 20px 0; 
+    padding-bottom: 16px;
+    border-radius: 8px;
+}
+
+#my-projects-sections section > div div div {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    background-image: url("image.png");
+    background-size: cover;
+}
+
+#my-projects-sections section > div div h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 14px 0 9px 23px;
+}
+
+#my-projects-sections section > div div p {
+    font-size: 16px;
+    margin-left: 23px;
+
+}
+
+
+#skills-container {
+    width: 100%;
+
+}
+
+#skills-container h2 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+#skills-container div {
+    width: 100%;
+    background: #384772;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+#skills-container div img {
+    height: 75px;
+}
+
+#skills-container div img + img {
+    margin-left: 23px;
+}
+
+
+footer {
+    background-color: #384772;
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+    margin-top: 75px;
+    font-size: 20px;
+  }
